@@ -25,9 +25,9 @@ public class Student_Implementations implements Student_Operatins {
 	@Override
 	public void deletestudent(int id, ArrayList<Student> studentlist) {
 		
-		for (Student s : studentlist) {
-	        if (s.getId() == id) {
-	            studentlist.remove(s);
+		for (Student student : studentlist) {
+	        if (student.getId() == id) {
+	            studentlist.remove(student);
 	            System.out.println("Student with ID " + id );
 	            return;
 	        }
