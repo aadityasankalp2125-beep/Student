@@ -8,8 +8,9 @@ public class Std_test {
         ArrayList<Student> list = new ArrayList<>();
         Student_Implementations impl = new Student_Implementations();
 
-        impl.addstudent(101, list);
-
-        System.out.println(list);  
+        list.add(new Student("Aaditya", 101,"cse",456789l));
+        System.out.println("student added");
+        System.out.println(list);
+       
     }
 }
