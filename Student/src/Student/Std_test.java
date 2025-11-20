@@ -8,8 +8,8 @@ public class Std_test {
         ArrayList<Student> list = new ArrayList<>();
         Student_Implementations impl = new Student_Implementations();
 
-        impl.addstudent(101, list); // Calling the method you implemented
+        impl.addstudent(101, list);
 
-        System.out.println(list);   // Should show 1 student
+        System.out.println(list);  
     }
 }
